@@ -17,3 +17,18 @@
     width: 100%;
     height: auto;
 }
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+section h1{
+    color: white;
+}
+
+.intro img{
+    width: 100%;
+    height: auto;
+}
