@@ -11,6 +11,16 @@ body {
     flex-direction: row;
 }
 
+.line-top {
+    color: white;
+    width: 40%;
+}
+
+.line-nav {
+    color: white;
+    width: 70%;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -47,9 +57,7 @@ section .intro {
 
 section h1 {
     color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+
 }
 
 h1 {
@@ -57,7 +65,8 @@ h1 {
     font-size: 25px;
     color: white;
     text-align: center;
-    height: 300px;
+    height: 300px;    
+
 }
 
 .mac-image {
@@ -71,4 +80,15 @@ h1 {
 nav div {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
+}
+
+div .intro-text{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    height: 500px;
 }
