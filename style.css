@@ -74,6 +74,22 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 4px;
+}
+
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: 4px;
+}
+
 .name {
     padding-top: 25%; 
     height: 300px;  
@@ -101,4 +117,19 @@ div .intro-text{
     width: 100%;
     padding: 20px;
     height: 500px;
+}
+
+.project-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    background-color: grey;
+    height: 350px;
+    width: 350px;
+    border: 2px solid white;
+    margin: 20px
 }
