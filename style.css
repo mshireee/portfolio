@@ -121,9 +121,9 @@ div .intro-text{
 
 .project-boxes {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .project {
@@ -131,5 +131,5 @@ div .intro-text{
     height: 350px;
     width: 350px;
     border: 2px solid white;
-    margin: 20px
+    margin: 0 auto;
 }
