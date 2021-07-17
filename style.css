@@ -142,16 +142,39 @@ div .intro-text{
     margin: 0 auto;
 }
 
-.nology-pic {
+.nology-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    height: 350px;
-    width: 350px;
+
+}
+
+.nology-pic {
+    height: 300px;
+    width: 300px;
     border: 2px solid black;
-    margin: 0 auto;
-    background-image: url(./images/About\ Me\ Pic.jpg);
+    background-image: url(./images/code.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
+}
+
+.nology-text {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.nology-h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    text-decoration-line: underline;
+
+}
+.nology-h3 {
+    font-size: 12px;
+    margin: 2px;
 }
