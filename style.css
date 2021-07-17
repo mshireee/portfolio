@@ -6,7 +6,8 @@
 }
 
 html {
-    margin: 10px;
+    margin: 15px;
+    width: fit-content;
 }
 
 
@@ -295,7 +296,7 @@ div .intro-text{
     height: 300px;
     width: 300px;
     border: 2px solid black;
-    background-image: url(./images/code.jpeg);
+    background-image: url(./images/nology.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
