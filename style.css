@@ -468,6 +468,7 @@ ul {
     height: 300px;
     width: 500px;
     border: 2px solid black;
+    text-decoration: none;
 }
 
 
@@ -492,7 +493,7 @@ ul {
     color: white;
     text-align: center;
     margin: 2px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 @media screen and (max-width: 535px) {
@@ -528,7 +529,59 @@ ul {
 
 /* Social Media Icons Code*/
 
+.socials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin: 0% auto;
+}
 
+.socials-box1 {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/github.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.socials-box2 {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/slack.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.socials-box3 {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/behance.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.socials-box4 {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/linkedin.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.socials-box5 {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/gmail.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 /* Back To Top Code */
 
